@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Contact - Burnley Art Festival</title>
+       <link rel="icon" type="image/png" href="favicon.png">
+       <link rel="stylesheet" href="style.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="site-container">
+                <div class="header-inner">
+                    <div class="header">
+                        <a href="home.html" class="logo"><img src="logo.png" alt="Burnley Art Festival Logo"></a>
+                        <nav class="desktop-nav">
+                            <a href="home.html">
+                                <div class="inner-container">
+                                    <span>Home</span>
+                                    <span aria-hidden="true">Home</span>
+                                </div>
+                            </a>
+
+                            <a href="events.html">
+                                <div class="inner-container">
+                                    <span>Events</span>
+                                    <span aria-hidden="true">Events</span>
+                                </div>
+                            </a>
+
+                            <a href="art.html">
+                                <div class="inner-container">
+                                    <span>Art</span>
+                                    <span aria-hidden="true">Art</span>
+                                </div>
+                            </a>
+
+                            <a href="support.html">
+                                <div class="inner-container">
+                                    <span>Support</span>
+                                    <span aria-hidden="true">Support</span>
+                                </div>
+                            </a>
+
+                            <a href="contact.html">
+                                <div class="inner-container">
+                                    <span>Contact</span>
+                                    <span aria-hidden="true">Contact</span>
+                                </div>
+                            </a>
+                        </nav>
+                        <button class="hamburger" aria-label="Toggle menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <nav class="mobile-nav">
+                    <a href="home.html">
+                        <div class="inner-container">
+                            <span>Home</span>
+                            <span aria-hidden="true">Home</span>
+                        </div>
+                    </a>
+
+                    <a href="events.html">
+                        <div class="inner-container">
+                            <span>Events</span>
+                            <span aria-hidden="true">Events</span>
+                        </div>
+                    </a>
+
+                    <a href="art.html">
+                        <div class="inner-container">
+                            <span>Art</span>
+                            <span aria-hidden="true">Art</span>
+                        </div>
+                    </a>
+
+                    <a href="support.html">
+                        <div class="inner-container">
+                            <span>Support</span>
+                            <span aria-hidden="true">Support</span>
+                        </div>
+                    </a>
+
+                    <a href="contact.html">
+                        <div class="inner-container">
+                            <span>Contact</span>
+                            <span aria-hidden="true">Contact</span>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="content-container">
+                <h1>Contact Us</h1>
+                
+                <div class="map-container">
+                    <h2>Find Us at Scott Park</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2357.4322221245548!2d-2.2566504000000003!3d53.7817944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b973e01d3a82d%3A0x22b16e901e83d72d!2sScott%20Park!5e0!3m2!1sen!2suk!4v1772538333177!5m2!1sen!2suk" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p class="map-description">The Burnley Art Festival is located at Scott Park. Use the map above to find directions to our venue. We're easily accessible by public transport and have parking facilities available for visitors.</p>
+                </div>
+
+                <div class="art-gallery">
+                    <div class="art-item">
+                        <img src="contact.png" alt="Venue Information">
+                        <p><strong>Venue Information</strong><br>
+                        Our festival takes place at the beautiful Scott Park, providing a perfect setting for our art exhibitions. The venue features spacious galleries, workshop areas, and comfortable spaces for visitors to enjoy the artwork at their leisure.</p>
+                    </div>
+                </div>
+
+                <section class="about-us" style="margin-top: 40px;">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions about the festival? Want to become a participating artist? Need assistance? Our friendly team is here to help. Send us a message using the form below.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">Your Name</label>
+                            <input type="text" id="contactName" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactEmail">Your Email</label>
+                            <input type="email" id="contactEmail" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactSubject">Subject</label>
+                            <input type="text" id="contactSubject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactMessage">Message</label>
+                            <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
+
